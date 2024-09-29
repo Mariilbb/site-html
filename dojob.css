@@ -1,0 +1,42 @@
+html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid #ff6677; /* Rosa mais escuro */
+    background-color: #ccffcc; /* Verde claro escurecido */
+}
+
+h1 {
+    font-size: 2em;
+    color: #ff6677; /* Rosa mais escuro */
+    padding: 20px;
+    margin: 20px 0; /* Margem superior e inferior */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Sombra mais visível */
+    word-wrap: break-word;
+}
+
+img {
+    display: block;
+    width: 400px; /* Tamanho fixo da imagem */
+    height: auto;
+    margin: 10px auto; /* Centraliza a imagem horizontalmente */
+}
+
+p, ul {
+    font-size: 1em; /* Tamanho da fonte consistente */
+    word-wrap: break-word;
+}
+
+ul {
+    padding-left: 20px; /* Adiciona padding à esquerda das listas */
+}
+
+
+
